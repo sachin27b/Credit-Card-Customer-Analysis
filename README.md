@@ -6,7 +6,11 @@ Python Version 3.8.0
 ## Steps to run the notebook:
 - Create a virtual environment
 - Activate virtual environment
-- Install necessary libraries
+- Clone the repository:
+```bash
+git clone git@github.com:sachin27b/Credit-Card-Customer-Analysis.git
+```
+- Install necessary libraries:
 ```bash
 pip install -r requirements.txt
 ```
