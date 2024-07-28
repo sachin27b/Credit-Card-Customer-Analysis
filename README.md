@@ -3,7 +3,7 @@
 ```
 Python Version 3.8.0
 ```
-### Steps to run the notebook:
+## Steps to run the notebook:
 - Create a virtual environment
 - Activate virtual environment
 - Install necessary libraries
@@ -12,8 +12,14 @@ pip install -r requirements.txt
 ```
 - Open the notebook with Virtual environment as kernel.
 
+## Information on Dataset:
+- 10127 entries
+- Data columns (total 20 columns)
+
 ## Observations from clustering using K-means
 From Elbow method and Silhouette method it was observed that 4 is the optimal number of clusters.
+![alt text](media/image.png)
+
 ### From Numerical Columns
 - Cluster 0 and 1 has more aged customers.
 - Cluster 0 and 1 had longer relationship with the credit card.
@@ -46,6 +52,7 @@ We have an imbalanced dataset. Since we are predicting probabilities and both cl
     - XGBoost
 
 ## Results
+![alt text](media/roc.png)
 - Logistic Regression ROC score --> 0.93
 - Random Forest ROC score --> 0.98
 - XGBoost ROC score --> 0.99
