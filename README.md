@@ -46,6 +46,6 @@ We have an imbalanced dataset. Since we are predicting probabilities and both cl
     - XGBoost
 
 ## Results
-- Logistic Regression0.93
-- Random Forest 0.98
-- XGBoost 0.99
+- Logistic Regression ROC score --> 0.93
+- Random Forest ROC score --> 0.98
+- XGBoost ROC score --> 0.99
